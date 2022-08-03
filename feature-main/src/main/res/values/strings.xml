@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_main_profile_tab_capsules">Capsules</string>
+    
+    <string name="feature_main_profile_title_wardrobe">Wardrobe</string>
+    <string name="feature_main_profile_title_capsules">Capsules</string>
+
+    <string name="feature_main_feed_my_advert_published">Published</string>
+    <string name="feature_main_feed_my_advert_on_moderation">On moderation</string>
+    <string name="feature_main_feed_my_advert_rejected">Rejected</string>
+
+    <string name="feature_main_feed_feed">Feed</string>
+    <string name="feature_main_feed_favorite">Favorites</string>
+    <string name="feature_main_feed_my_items">My items</string>
+
+    <string name="feature_main_feed_feed_empty_title">Empty now</string>
+    <string name="feature_main_feed_feed_empty_description">Looks like there is no items with this search request</string>
+
+    <string name="feature_main_feed_favorite_empty_title">Empty now</string>
+    <string name="feature_main_feed_favorite_empty_description">There will be your favorite items</string>
+
+    <string name="feature_main_feed_my_items_empty_title">Empty now</string>
+    <string name="feature_main_feed_my_items_empty_description">You can sell something from your wardrobe</string>
+</resources>

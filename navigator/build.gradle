@@ -1,0 +1,57 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+}
+
+apply from: "../dependencies.gradle"
+apply from: "../version.gradle"
+
+android {
+    compileSdkVersion sdk.compileSdkVersion
+    buildToolsVersion sdk.buildToolsVersion
+
+    defaultConfig {
+        buildConfigField("String", "ARCHIEVE_NAME", "\"$archives.archivesBaseName\"")
+        buildConfigField("String", "APP_URL_GOOGLE", "\"$urls.appUrl\"")
+
+        minSdkVersion sdk.minSdkVersion
+    }
+
+    compileOptions {
+        sourceCompatibility sdk.javaVersion
+        targetCompatibility sdk.javaVersion
+    }
+
+    kotlinOptions {
+        jvmTarget = sdk.jvmTargetVersion
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation library.kotlinCore
+    implementation library.appCompat
+
+    implementation project(':feature-about-app')
+    implementation project(':feature-auth')
+    implementation project(':feature-capsule')
+    implementation project(':feature-color-picker')
+    implementation project(':feature-dialog')
+    implementation project(':feature-dialogs-list')
+    implementation project(':feature-item')
+    implementation project(':feature-item-creation')
+    implementation project(':feature-main')
+    implementation project(':feature-onboarding')
+    implementation project(':feature-profile-setup')
+    implementation project(':feature-settings')
+    implementation project(':feature-splash')
+
+    implementation project(':domain')
+    implementation project(':tools')
+
+    implementation project(':navigator-api')
+}

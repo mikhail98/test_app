@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Header24.Light" parent="@style/TextAppearance.MaterialComponents.Headline5">
+        <item name="android:fontFamily">@font/manrope_bold</item>
+        <item name="fontFamily">@font/manrope_bold</item>
+        <item name="android:textColor">@color/eminem</item>
+    </style>
+
+    <style name="Header20.Light" parent="@style/Base.TextAppearance.MaterialComponents.Headline6">
+        <item name="android:fontFamily">@font/manrope_bold</item>
+        <item name="fontFamily">@font/manrope_bold</item>
+        <item name="android:textColor">@color/eminem</item>
+    </style>
+
+    <style name="Header16.Light" parent="@style/TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:fontFamily">@font/manrope_bold</item>
+        <item name="fontFamily">@font/manrope_bold</item>
+        <item name="android:textColor">@color/eminem</item>
+    </style>
+    <style name="Header14.Light" parent="@style/TextAppearance.MaterialComponents.Body2">
+        <item name="android:fontFamily">@font/manrope_regular</item>
+        <item name="fontFamily">@font/manrope_regular</item>
+        <item name="android:textColor">@color/eminem</item>
+    </style>
+
+    <style name="Header20.Dark" parent="@style/Base.TextAppearance.MaterialComponents.Headline6">
+        <item name="android:fontFamily">@font/manrope_bold</item>
+        <item name="fontFamily">@font/manrope_bold</item>
+        <item name="android:textColor">@color/gray_80</item>
+    </style>
+
+    <style name="Header14.Dark" parent="@style/TextAppearance.MaterialComponents.Body2">
+        <item name="android:fontFamily">@font/manrope_regular</item>
+        <item name="fontFamily">@font/manrope_regular</item>
+        <item name="android:textColor">@color/gray_80</item>
+    </style>
+
+    <style name="Header14.Dark.Medium" parent="@style/TextAppearance.MaterialComponents.Body2">
+        <item name="android:fontFamily">@font/manrope_medium</item>
+        <item name="fontFamily">@font/manrope_medium</item>
+        <item name="android:textColor">@color/gray_80</item>
+    </style>
+
+    <style name="Header12.Dark" parent="@style/TextAppearance.M3.Sys.Typescale.BodySmall">
+        <item name="android:fontFamily">@font/manrope_regular</item>
+        <item name="fontFamily">@font/manrope_regular</item>
+        <item name="android:textColor">@color/gray_80</item>
+    </style>
+
+    <style name="Header10.Black" parent="@style/TextAppearance.MaterialComponents.Overline">
+        <item name="android:fontFamily">@font/manrope_regular</item>
+        <item name="fontFamily">@font/manrope_regular</item>
+        <item name="android:textColor">@color/blacked</item>
+    </style>
+
+</resources>

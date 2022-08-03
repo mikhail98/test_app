@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_settings_unsaved_changes">У вас есть несохраненные изменения, вы точно хотите выйти?</string>
+    <string name="feature_settings_unsaved_changes_exit">Выйти</string>
+
+    <string name="feature_settings_first_name">Имя</string>
+    <string name="feature_settings_last_name">Фамилия</string>
+    <string name="feature_settings_user_name">Никнейм</string>
+    <string name="feature_settings_bio">Био</string>
+    <string name="feature_settings">Настройки</string>
+
+    <string name="feature_settings_auth">Авторизация</string>
+    <string name="feature_settings_notification">Уведомления</string>
+    <string name="feature_settings_privacy_policy">Политика конфиденциальности</string>
+    <string name="feature_settings_about_app">О приложении</string>
+    <string name="feature_settings_exit">Выйти</string>
+    <string name="feature_settings_delete_account">Удалить аккаунт</string>
+
+    <string name="feature_settings_setup_nickname_error">Этот никнейм уже занят</string>
+
+    <string name="feature_settings_photo_dialog_title">Фото профиля</string>
+    <string name="feature_settings_photo_description">Какое-то описание</string>
+</resources>

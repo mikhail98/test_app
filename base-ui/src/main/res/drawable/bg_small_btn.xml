@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/item_small_button_radius" />
+    <solid android:color="@color/eminem_10" />
+</shape>

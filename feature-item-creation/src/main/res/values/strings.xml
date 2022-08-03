@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_item_creation_title">New item</string>
+    <string name="feature_item_creation_add_photo">Add photo</string>
+
+    <string name="feature_item_creation_add_photo_title">Item photo</string>
+    <string name="feature_item_creation_add_photo_description">Try to choose good one</string>
+
+    <string name="feature_item_creation_category">Category</string>
+    <string name="feature_item_creation_subcategory">Subcategory</string>
+    <string name="feature_item_creation_brand">Brand</string>
+    <string name="feature_item_creation_model_name">Item model name</string>
+    <string name="feature_item_creation_model_size">Size</string>
+    <string name="feature_item_creation_model_season">Season</string>
+    <string name="feature_item_creation_model_fit">Fit</string>
+    <string name="feature_item_creation_model_style">Style</string>
+    <string name="feature_item_creation_model_color">Color</string>
+
+    <string name="feature_item_creation_model_additional_params">Additional item parameters</string>
+    <string name="feature_item_creation_model_wardrobe_params">Parameters for analysis</string>
+
+    <string name="feature_item_creation_continue">Continue</string>
+
+    <string name="feature_item_creation_for_man">For man</string>
+    <string name="feature_item_creation_for_woman">For woman</string>
+
+    <string name="feature_item_creation_apply">Apply</string>
+
+    <string name="feature_item_creation_season_summer">Summer</string>
+    <string name="feature_item_creation_season_winter">Winter</string>
+    <string name="feature_item_creation_season_demiseason">Demiseason</string>
+    <string name="feature_item_creation_season_title">Select season</string>
+
+    <string name="feature_item_creation_fit_slim">Slim</string>
+    <string name="feature_item_creation_fit_regular">Regular</string>
+    <string name="feature_item_creation_fit_comfort">Comfort</string>
+    <string name="feature_item_creation_fit_oversize">Oversize</string>
+    <string name="feature_item_creation_fit_title">Select fit</string>
+
+    <string name="feature_item_creation_style_title">Select style</string>
+
+    <string name="feature_item_creation_size_title">Size</string>
+</resources>

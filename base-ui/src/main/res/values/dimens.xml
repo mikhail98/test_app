@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="radius_4">4dp</dimen>
+    <dimen name="radius_8">8dp</dimen>
+    <dimen name="radius_12">12dp</dimen>
+    <dimen name="radius_16">16dp</dimen>
+
+    <dimen name="padding_64">64dp</dimen>
+    <dimen name="padding_48">48dp</dimen>
+    <dimen name="padding_32">32dp</dimen>
+    <dimen name="padding_24">24dp</dimen>
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="small_padding">12dp</dimen>
+    <dimen name="mini_padding">8dp</dimen>
+    <dimen name="padding_6">6dp</dimen>
+    <dimen name="micro_padding">4dp</dimen>
+    <dimen name="nano_padding">2dp</dimen>
+    <dimen name="piko_padding">1dp</dimen>
+
+    <dimen name="margin_96">96dp</dimen>
+    <dimen name="margin_64">64dp</dimen>
+    <dimen name="margin_48">48dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_32">32dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="big_margin">20dp</dimen>
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="small_margin">12dp</dimen>
+    <dimen name="mini_margin">8dp</dimen>
+    <dimen name="margin_6">6dp</dimen>
+    <dimen name="micro_margin">4dp</dimen>
+    <dimen name="nano_margin">2dp</dimen>
+
+    <dimen name="default_elevation">2dp</dimen>
+
+    <dimen name="btn_radius">12dp</dimen>
+    <dimen name="btn_height">56dp</dimen>
+    <dimen name="btn_outline_stroke_width">0.5dp</dimen>
+    <dimen name="btn_image_size">24dp</dimen>
+
+    <dimen name="input_view_height">48dp</dimen>
+    <dimen name="input_view_outline_stroke_width">1dp</dimen>
+
+    <dimen name="selectable_item_view_icon_size">24dp</dimen>
+
+    <dimen name="item_button_radius">16dp</dimen>
+    <dimen name="item_button_image_size">40dp</dimen>
+
+    <dimen name="item_small_button_size">32dp</dimen>
+    <dimen name="item_small_button_icon_size">16dp</dimen>
+    <dimen name="item_small_button_radius">8dp</dimen>
+
+    <dimen name="progress_bar_size">86dp</dimen>
+
+    <dimen name="btn_more_size">24dp</dimen>
+    <dimen name="search_bar_height">32dp</dimen>
+
+    <dimen name="ios_like_tab_layout_height">32dp</dimen>
+
+    <dimen name="appbar_height">60dp</dimen>
+
+    <dimen name="empty_state_icon_size">64dp</dimen>
+
+    <dimen name="drag_line_width">48dp</dimen>
+    <dimen name="drag_line_height">4dp</dimen>
+
+    <dimen name="selectable_color_size">50dp</dimen>
+    <dimen name="color_item_size">24dp</dimen>
+
+</resources>

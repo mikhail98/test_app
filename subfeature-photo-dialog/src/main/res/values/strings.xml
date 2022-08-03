@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="photo_guide">Photo guide</string>
+    <string name="take_from_camera">From camera</string>
+    <string name="take_from_gallery">From gallery</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/size_item_width"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/big_margin"
+    android:layout_marginEnd="@dimen/big_margin">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin"
+        android:fontFamily="@font/manrope_regular"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textColor="@color/gray_80"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="46" />
+
+    <View
+        android:layout_width="@dimen/size_picker_line_width"
+        android:layout_height="@dimen/size_picker_line_height"
+        android:layout_marginTop="@dimen/size_picker_line_margin"
+        android:alpha="0.3"
+        android:background="@color/gray_80"
+        app:layout_constraintEnd_toEndOf="@id/tvSize"
+        app:layout_constraintStart_toStartOf="@id/tvSize"
+        app:layout_constraintTop_toTopOf="@id/tvSize" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

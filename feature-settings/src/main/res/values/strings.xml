@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_settings_unsaved_changes">You have unsaved changes. Are you really want to go?</string>
+    <string name="feature_settings_unsaved_changes_exit">Exit</string>
+
+    <string name="feature_settings_first_name">Name</string>
+    <string name="feature_settings_last_name">Surname</string>
+    <string name="feature_settings_user_name">Nickname</string>
+    <string name="feature_settings_bio">About</string>
+    <string name="feature_settings">Settings</string>
+
+    <string name="feature_settings_auth">Authorization</string>
+    <string name="feature_settings_notification">Notifications</string>
+    <string name="feature_settings_privacy_policy">Privacy policy</string>
+    <string name="feature_settings_about_app">About app</string>
+    <string name="feature_settings_exit">Exit</string>
+    <string name="feature_settings_delete_account">Delete account</string>
+
+    <string name="feature_settings_setup_nickname_error">This nickname is already taken</string>
+
+    <string name="feature_settings_photo_dialog_title">Profile photo</string>
+    <string name="feature_settings_photo_description">Description</string>
+</resources>

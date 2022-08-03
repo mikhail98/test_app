@@ -1,0 +1,7 @@
+ext.signingConfig = [
+        keyFile      : "../eratart_test.keystore",
+        storePassword: "test1234",
+        keyAlias     : "test",
+        keyPassword  : "test1234"
+]
+//keytool -list -v -keystore eratart_test.keystore -alias test

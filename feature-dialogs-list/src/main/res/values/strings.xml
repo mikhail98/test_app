@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_dialogs_list_title">Dialogs</string>
+    <string name="feature_dialog_list_recently_searched">Resent searches</string>
+    <string name="feature_dialog_list_current_user_message_prefix">You: </string>
+    <string name="feature_dialogs_list_search_empty_title">404 Nothing Was Found</string>
+    <string name="feature_dialogs_search_empty_subtitle">Try to change your request</string>
+</resources>

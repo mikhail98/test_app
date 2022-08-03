@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_main_profile_tab_capsules">Капсулы</string>
+
+    <string name="feature_main_profile_title_wardrobe">Гардероб</string>
+    <string name="feature_main_profile_title_capsules">Капсулы</string>
+
+    <string name="feature_main_feed_my_advert_published">Опубликовано</string>
+    <string name="feature_main_feed_my_advert_on_moderation">На модерации</string>
+    <string name="feature_main_feed_my_advert_rejected">Отклонено</string>
+
+    <string name="feature_main_feed_feed">Лента</string>
+    <string name="feature_main_feed_favorite">Избранное</string>
+    <string name="feature_main_feed_my_items">Мои вещи</string>
+
+    <string name="feature_main_feed_feed_empty_title">Пока пусто</string>
+    <string name="feature_main_feed_feed_empty_description">Возможно, по выбранным фильтрам здесь пока нет подходящих обьявлений</string>
+
+    <string name="feature_main_feed_favorite_empty_title">Пока пусто</string>
+    <string name="feature_main_feed_favorite_empty_description">Здесь будут показываться сохраненные вами вещи из ленты обьявлений</string>
+
+    <string name="feature_main_feed_my_items_empty_title">Пока пусто</string>
+    <string name="feature_main_feed_my_items_empty_description">Вы можете опубликовать вещи из своего гардероба</string>
+</resources>

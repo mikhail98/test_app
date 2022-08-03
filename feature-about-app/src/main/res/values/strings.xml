@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="feature_app_info_app_name" translatable="false">Dropp</string>
+    <string name="app_info_email" translatable="false">info@eratart.com</string>
+    <string name="app_info_email_subject">Dropp Feedback</string>
+
+    <string name="feature_app_info_title">About app</string>
+    <string name="feature_app_info_connect_with_us">Connect with us</string>
+    <string name="feature_app_info_rate_at_google_play">Rate at Google Play</string>
+    <string name="feature_app_info_created_with_love">Created by talented\nteam with love ❤</string>
+</resources>

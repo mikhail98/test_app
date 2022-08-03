@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_item_creation_title">Новая вещь</string>
+    <string name="feature_item_creation_add_photo">Добавить фото</string>
+
+    <string name="feature_item_creation_add_photo_title">Фото вещи</string>
+    <string name="feature_item_creation_add_photo_description">Выбирайте хорошие фото, на которых полность видна вещь</string>
+
+    <string name="feature_item_creation_category">Категория</string>
+    <string name="feature_item_creation_subcategory">Подкатегория</string>
+    <string name="feature_item_creation_brand">Бренд</string>
+    <string name="feature_item_creation_model_name">Название модели</string>
+    <string name="feature_item_creation_model_size">Размер</string>
+    <string name="feature_item_creation_model_season">Сезон</string>
+    <string name="feature_item_creation_model_fit">Крой</string>
+    <string name="feature_item_creation_model_style">Стиль</string>
+    <string name="feature_item_creation_model_color">Оттенок</string>
+
+    <string name="feature_item_creation_model_additional_params">Дополнительные параметры вещи</string>
+    <string name="feature_item_creation_model_wardrobe_params">Параметры для анализа гардероба</string>
+
+    <string name="feature_item_creation_continue">Continue</string>
+
+    <string name="feature_item_creation_for_man">Мужское</string>
+    <string name="feature_item_creation_for_woman">Женское</string>
+
+    <string name="feature_item_creation_apply">Подтвердить</string>
+
+    <string name="feature_item_creation_season_summer">Летний</string>
+    <string name="feature_item_creation_season_winter">Зимний</string>
+    <string name="feature_item_creation_season_demiseason">Демисезон</string>
+    <string name="feature_item_creation_season_title">Выберите сезон</string>
+
+    <string name="feature_item_creation_fit_slim">Узкий</string>
+    <string name="feature_item_creation_fit_regular">Обычный</string>
+    <string name="feature_item_creation_fit_comfort">Свободный</string>
+    <string name="feature_item_creation_fit_oversize">Оверсайз</string>
+    <string name="feature_item_creation_fit_title">Выберите крой</string>
+
+    <string name="feature_item_creation_style_title">Выберите стиль</string>
+
+    <string name="feature_item_creation_size_title">Размер</string>
+</resources>

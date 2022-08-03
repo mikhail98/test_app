@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="main_navbar_height">52dp</dimen>
+
+    <dimen name="mark_bad_height">18dp</dimen>
+
+    <dimen name="profile_tab_layout_height">42dp</dimen>
+    <dimen name="profile_tab_avatar_size">64dp</dimen>
+    <dimen name="profile_tab_avatar_margin">108dp</dimen>
+    <dimen name="profile_tab_avatar_radius">16dp</dimen>
+
+    <dimen name="favorites_btn_size">32dp</dimen>
+    <dimen name="my_advert_icon_state_size">24dp</dimen>
+
+</resources>

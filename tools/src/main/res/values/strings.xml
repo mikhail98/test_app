@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camera_not_found">Приложение \"Камера\" не найдено</string>
+    <string name="saving_exeption">Ошибка сохранения</string>
+</resources>

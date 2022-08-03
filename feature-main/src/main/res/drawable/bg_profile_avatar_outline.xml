@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/gray_18" />
+    <corners android:radius="@dimen/profile_tab_avatar_radius" />
+    <stroke
+        android:width="@dimen/input_view_outline_stroke_width"
+        android:color="@color/gray_58" />
+</shape>

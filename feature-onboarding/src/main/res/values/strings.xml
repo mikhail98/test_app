@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_onboarding_fragment_1_title">Only original clothes</string>
+    <string name="feature_onboarding_fragment_1_description">Here you can find test description 1</string>
+    <string name="feature_onboarding_fragment_2_title">Your personal stylist</string>
+    <string name="feature_onboarding_fragment_2_description">Here you can find test description 2</string>
+    <string name="feature_onboarding_fragment_3_title">Photos</string>
+    <string name="feature_onboarding_fragment_3_description">Here you can find test description 3</string>
+
+    <string name="feature_onboarding_next_button_text">Continue</string>
+    <string name="feature_onboarding_skip_button_text">Skip</string>
+</resources>

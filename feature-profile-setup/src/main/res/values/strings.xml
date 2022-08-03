@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_profile_setup_title">Add info to your profile</string>
+    <string name="feature_profile_setup_description">You can edit this info later in profile settings</string>
+    <string name="feature_profile_setup_next">Next</string>
+
+    <string name="feature_profile_setup_first_name">Name</string>
+    <string name="feature_profile_setup_last_name">Surname</string>
+    <string name="feature_profile_setup_clothes_sex">I\'m wearing</string>
+    <string name="feature_profile_setup_clothes_type">Extravagance</string>
+    <string name="feature_profile_setup_nickname">Nickname</string>
+    <string name="feature_profile_setup_bio">About</string>
+
+    <string name="feature_profile_setup_nickname_error">This nickname is already taken</string>
+
+    <string name="feature_profile_setup_sex_title">I\'m wearing</string>
+    <string name="feature_profile_setup_sex_description">We need this to create best recommendations</string>
+    <string name="feature_profile_setup_sex_man">Men\'s</string>
+    <string name="feature_profile_setup_sex_woman">Woman\'s</string>
+    <string name="feature_profile_setup_sex_omen">Unisex</string>
+
+    <string name="feature_profile_setup_type_title">Your extravagance</string>
+    <string name="feature_profile_setup_type_description">We need this to create best recommendations</string>
+    <string name="feature_profile_setup_type_low">Very boring</string>
+    <string name="feature_profile_setup_type_medium">Usual</string>
+    <string name="feature_profile_setup_type_high">Experiments</string>
+    <string name="feature_profile_setup_type_elton">Elton John</string>
+
+    <string name="feature_profile_setup_photo_dialog_title">Profile photo</string>
+    <string name="feature_profile_setup_photo_description">Description</string>
+</resources>

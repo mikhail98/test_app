@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base colors -->
+    <color name="blacked">#000000</color>
+    <color name="eminem">#ffffff</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- UI Colors -->
+    <color name="accent">#9576D7</color>
+    <color name="bg_overlay">#bb000000</color>
+    <color name="background">#101011</color>
+    <color name="background_2">#181819</color>
+    <color name="action_bar">#1C1C1D</color>
+    <color name="action_bar_30">#4D1C1C1D</color>
+
+    <color name="blacked_50">#80000000</color>
+    <color name="blacked_30">#4D000000</color>
+    <color name="gray_10_90">#E6101011</color>
+    <color name="eminem_10">#1AFFFFFF</color>
+
+    <color name="gray_18">#181819</color>
+    <color name="gray_28">#282829</color>
+    <color name="gray_48">#484849</color>
+    <color name="gray_58">#585859</color>
+    <color name="gray_69">#696970</color>
+    <color name="gray_80">#808081</color>
+    <color name="gray_CF">#CFCFD0</color>
+
+    <color name="red_error">#EC7167</color>
+    <color name="red_error_secondary">#C5635B</color>
+
+    <color name="accent_40">#669576D7</color>
+    <color name="blacked_40">#66000000</color>
+    <color name="error_40">#66EC7167</color>
+
+    
+    <color name="item_color_1">#e03570</color>
+    <color name="item_color_2">#f14f41</color>
+    <color name="item_color_3">#f56932</color>
+    <color name="item_color_4">#f7a732</color>
+    <color name="item_color_5">#f7cb27</color>
+    <color name="item_color_6">#fee58b</color>
+    <color name="item_color_7">#90529c</color>
+    <color name="item_color_8">#4c5ca6</color>
+    <color name="item_color_9">#1249e4</color>
+    <color name="item_color_10">#00978c</color>
+    <color name="item_color_11">#4ea656</color>
+    <color name="item_color_12">#c1cb4f</color>
+    <color name="item_color_13">#000000</color>
+    <color name="item_color_14">#ffffff</color>
+
+</resources>

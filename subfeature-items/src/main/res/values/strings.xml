@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="subfeature_items_tab_items">Items</string>
+    <string name="subfeature_items_mark_bad">Hm…</string>
+    <string name="subfeature_items_add_item">Add item</string>
+</resources>

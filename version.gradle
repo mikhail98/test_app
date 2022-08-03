@@ -1,0 +1,21 @@
+apply from: "../dependencies.gradle"
+
+ext.appVersion = [
+        majorVersion: 0,
+        minorVersion: 0,
+        patchVersion: 0,
+        buildVersion: 1,
+]
+
+ext.versionCodes = [
+        versionCode: appVersion.majorVersion * 10000 + appVersion.minorVersion * 1000 + appVersion.patchVersion * 10 + appVersion.buildVersion,
+        versionName: "v$appVersion.majorVersion.$appVersion.minorVersion.$appVersion.patchVersion"
+]
+
+ext.archives = [
+        archivesBaseName: "Dropp $versionCodes.versionName",
+]
+
+ext.urls = [
+        appUrl: "https://play.google.com/store/apps/details?id=$sdk.applicationId"
+]

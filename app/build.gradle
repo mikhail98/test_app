@@ -1,0 +1,120 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-parcelize'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+}
+
+apply from: "../dependencies.gradle"
+apply from: "../version.gradle"
+apply from: "../signing.gradle"
+
+android {
+    compileSdkVersion sdk.compileSdkVersion
+    buildToolsVersion sdk.buildToolsVersion
+
+    defaultConfig {
+        applicationId sdk.applicationId
+        minSdkVersion sdk.minSdkVersion
+        targetSdkVersion sdk.targetSdkVersion
+        versionCode versionCodes.versionCode
+        versionName versionCodes.versionName
+
+        archivesBaseName = archives.archivesBaseName
+        resConfigs "en", "ru"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file(signingConfig.keyFile)
+            storePassword signingConfig.storePassword
+            keyAlias signingConfig.keyAlias
+            keyPassword signingConfig.keyPassword
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+
+            minifyEnabled true
+            shrinkResources true
+
+            debuggable false
+            jniDebuggable false
+            crunchPngs false
+
+            proguardFiles 'proguard-rules.pro'
+            resValue "string", "authorities", "${sdk.applicationId}.provider"
+            resValue "string", "appName", "Dropp"
+        }
+        debug {
+            applicationIdSuffix ".debug"
+            resValue "string", "authorities", "${sdk.applicationId}.debug.provider"
+            resValue "string", "appName", "Dropp.debug"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility sdk.javaVersion
+        targetCompatibility sdk.javaVersion
+    }
+
+    kotlinOptions {
+        jvmTarget = sdk.jvmTargetVersion
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+    }
+}
+
+dependencies {
+    implementation library.koin
+    implementation library.coroutines
+
+    implementation platform(library.firebaseBom)
+    implementation library.firebaseAnalyticsKtx
+    implementation library.firebaseCrashlyticsKtx
+
+    implementation project(':base-ui')
+    implementation project(':core')
+    implementation project(':data')
+    implementation project(':domain')
+    implementation project(':firebase-auth')
+    implementation project(':navigator')
+    implementation project(':navigator-api')
+    implementation project(':tools')
+
+    implementation project(':feature-about-app')
+    implementation project(':feature-auth')
+    implementation project(':feature-dialog')
+    implementation project(':feature-dialogs-list')
+    implementation project(':feature-color-picker')
+    implementation project(':feature-item')
+    implementation project(':feature-item-creation')
+    implementation project(':feature-onboarding')
+    implementation project(':feature-profile-setup')
+    implementation project(':feature-splash')
+    implementation project(':feature-settings')
+
+    implementation project(':subfeature-items')
+    implementation project(':subfeature-looks')
+    implementation project(':subfeature-chips-api')
+
+    implementation project(':uploader-api')
+    implementation project(':uploader-base')
+    implementation project(':uploader-firebase')
+    implementation project(':uploader-amazon')
+
+}

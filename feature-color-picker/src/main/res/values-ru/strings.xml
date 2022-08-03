@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_color_picker_title">Отенки вещи</string>
+
+    <string name="feature_color_picker_select_color_title">Выберите оттенок</string>
+    <string name="feature_color_picker_select_color_description">Оттенок носит примерный характер, это значит не стоит очень придираться к идеальному совпадению оттенка</string>
+
+    <string name="feature_color_picker_apply">Подтвердить</string>
+
+    <string name="feature_color_picker_main_color">Основной оттенок</string>
+    <string name="feature_color_picker_additional_color">Дополнителный оттенок</string>
+</resources>

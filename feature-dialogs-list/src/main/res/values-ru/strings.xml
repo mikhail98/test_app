@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_dialogs_list_title">Чаты</string>
+    <string name="feature_dialog_list_recently_searched">Недавно искали</string>
+    <string name="feature_dialog_list_current_user_message_prefix">Вы:\u0020</string>
+    <string name="feature_dialogs_list_search_empty_title">НИЧЕГО НЕ НАЙДЕНО</string>
+    <string name="feature_dialogs_search_empty_subtitle">Попробуйте изменить свой поисковый запрос</string>
+</resources>

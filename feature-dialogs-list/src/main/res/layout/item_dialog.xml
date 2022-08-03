@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_24"
+    app:layout_goneMarginBottom="@dimen/margin_24">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvAvatar"
+        android:layout_width="@dimen/feature_dialogs_list_avatar_height"
+        android:layout_height="@dimen/feature_dialogs_list_avatar_height"
+        app:cardCornerRadius="@dimen/radius_8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivAvatar"
+            android:layout_width="@dimen/feature_dialogs_list_avatar_height"
+            android:layout_height="@dimen/feature_dialogs_list_avatar_height"
+            android:src="@mipmap/ic_launcher" />
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/guideline"
+        android:layout_width="@dimen/default_margin"
+        android:layout_height="1dp"
+        app:layout_constraintStart_toEndOf="@id/cvAvatar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Header16.Light"
+        app:layout_constraintStart_toEndOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Dropp Support" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/micro_margin"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textAppearance="@style/Header14.Dark.Medium"
+        app:layout_constraintEnd_toStartOf="@id/tvUnreadMessages"
+        app:layout_constraintStart_toEndOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/tvName"
+        tools:text="Не могу найти трусы на маленького мальчика, трусы коричневые" />
+
+    <ImageView
+        android:id="@+id/ivReadMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/micro_margin"
+        app:layout_constraintBottom_toBottomOf="@id/tvTime"
+        app:layout_constraintEnd_toStartOf="@+id/tvTime"
+        app:layout_constraintTop_toTopOf="@id/tvTime"
+        tools:src="@drawable/ic_read_message" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_6"
+        android:textAppearance="@style/Header14.Dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="12:42" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvUnreadMessages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_40"
+        android:layout_marginTop="@dimen/margin_6"
+        android:layout_marginEnd="@dimen/margin_6"
+        android:background="@drawable/bg_unread_messages"
+        android:maxLength="3"
+        android:paddingHorizontal="@dimen/micro_padding"
+        android:paddingVertical="@dimen/nano_padding"
+        android:textAppearance="@style/Header10.Black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tvMessage"
+        app:layout_constraintTop_toBottomOf="@id/tvTime"
+        tools:text="20" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

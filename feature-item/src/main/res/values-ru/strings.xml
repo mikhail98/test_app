@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_item_brand">Brand</string>
+    <string name="feature_item_season">Season</string>
+    <string name="feature_item_size">Size</string>
+
+    <string name="feature_item_capsule">Capsules</string>
+    <string name="feature_item_looks_with_whis_item">Loooks with this capsule</string>
+    <string name="feature_item_create_advert">Create advert</string>
+
+    <string name="feature_item_season_summer">Летний</string>
+    <string name="feature_item_season_winter">Зимний</string>
+    <string name="feature_item_season_demiseason">Всесезонный</string>
+
+</resources>

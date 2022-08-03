@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_onboarding_fragment_1_title">Только брендовые вещи</string>
+    <string name="feature_onboarding_fragment_1_description">На платформе доступны только вещи известных брендов, собранные по категориям</string>
+    <string name="feature_onboarding_fragment_2_title">Твой личный стилист</string>
+    <string name="feature_onboarding_fragment_2_description">Загрузи свой гардероб в приложение, и мы подскажем, какие образы подходят тебе</string>
+    <string name="feature_onboarding_fragment_3_title">Качественные фото</string>
+    <string name="feature_onboarding_fragment_3_description">Мы модерируем качество фотографий в обьявлениях, словно вы смотрите вещи в модном бутике</string>
+
+    <string name="feature_onboarding_next_button_text">Далее</string>
+    <string name="feature_onboarding_skip_button_text">Пропустить</string>
+</resources>

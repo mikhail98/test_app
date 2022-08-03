@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_profile_setup_title">Дополните профиль</string>
+    <string name="feature_profile_setup_description">Дополнительную информацию вы можете заполнить позднее в личном профиле</string>
+    <string name="feature_profile_setup_next">Далее</string>
+
+    <string name="feature_profile_setup_first_name">Имя</string>
+    <string name="feature_profile_setup_last_name">Фамилия</string>
+    <string name="feature_profile_setup_clothes_sex">Ношу одежду</string>
+    <string name="feature_profile_setup_clothes_type">Экстравагантность</string>
+    <string name="feature_profile_setup_nickname">Никнейм</string>
+    <string name="feature_profile_setup_bio">О себе</string>
+
+    <string name="feature_profile_setup_nickname_error">Этот никнейм уже занят</string>
+
+    <string name="feature_profile_setup_sex_title">Ношу Одежду</string>
+    <string name="feature_profile_setup_sex_description">Нужен для более корректного анализа вашего гардероба</string>
+    <string name="feature_profile_setup_sex_man">Мужскую</string>
+    <string name="feature_profile_setup_sex_woman">Женскую</string>
+    <string name="feature_profile_setup_sex_omen">Унисекс</string>
+
+    <string name="feature_profile_setup_type_title">Ваша экстравагантность</string>
+    <string name="feature_profile_setup_type_description">Насколько я не знаю что тут написать что надеюсь придумает Миша</string>
+    <string name="feature_profile_setup_type_low">Чуть чуть</string>
+    <string name="feature_profile_setup_type_medium">Вполне себе</string>
+    <string name="feature_profile_setup_type_high">Очень сильно</string>
+    <string name="feature_profile_setup_type_elton">Elton John</string>
+
+    <string name="feature_profile_setup_photo_dialog_title">Фото профиля</string>
+    <string name="feature_profile_setup_photo_description">Какое-то описание</string>
+</resources>

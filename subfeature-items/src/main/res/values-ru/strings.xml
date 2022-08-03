@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="subfeature_items_tab_items">Вещи</string>
+    <string name="subfeature_items_mark_bad">Сомнительно</string>
+    <string name="subfeature_items_add_item">Добавить вещь</string>
+</resources>

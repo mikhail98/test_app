@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_color_picker_title">Item colors</string>
+
+    <string name="feature_color_picker_select_color_title">Select color</string>
+    <string name="feature_color_picker_select_color_description">Color is approximate. Please be careful while selecting</string>
+
+    <string name="feature_color_picker_apply">Apply</string>
+    
+    <string name="feature_color_picker_main_color">Main color</string>
+    <string name="feature_color_picker_additional_color">Additional color</string>
+</resources>

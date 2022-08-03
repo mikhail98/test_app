@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="icon" format="reference" />
+    <attr name="text" format="string|reference" />
+    <attr name="title" format="string|reference" />
+
+    <declare-styleable name="OutlineButton">
+        <attr name="text" />
+        <attr name="icon" />
+    </declare-styleable>
+
+    <declare-styleable name="WarningButton">
+        <attr name="text" />
+        <attr name="icon" />
+    </declare-styleable>
+
+    <declare-styleable name="SmallButton">
+        <attr name="icon" />
+    </declare-styleable>
+
+    <declare-styleable name="FilledButton">
+        <attr name="text" />
+        <attr name="isActive" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TextInput">
+        <attr name="hint" format="string|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SelectableItem">
+        <attr name="icon" />
+        <attr name="title" />
+        <attr name="item" format="string|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorRadioButton">
+        <attr name="selected" format="boolean" />
+        <attr name="itemColor" format="reference" />
+        <attr name="itemSize" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MenuItem">
+        <attr name="text" />
+        <attr name="icon" />
+    </declare-styleable>
+
+    <declare-styleable name="EmptyState">
+        <attr name="icon" />
+        <attr name="title" />
+        <attr name="description" format="string|reference" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_bottom_sheet">
+
+
+    <View
+        android:id="@+id/dragLine"
+        style="@style/DragLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvColorTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_24"
+        android:fontFamily="@font/manrope_bold"
+        android:gravity="center"
+        android:text="@string/feature_color_picker_select_color_title"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+        android:textColor="@color/eminem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dragLine" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvColorDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_24"
+        android:layout_marginTop="@dimen/micro_margin"
+        android:layout_marginEnd="@dimen/margin_24"
+        android:fontFamily="@font/manrope_regular"
+        android:gravity="center"
+        android:text="@string/feature_color_picker_select_color_description"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+        android:textColor="@color/gray_80"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvColorTitle" />
+
+    <LinearLayout
+        android:id="@+id/llLine1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_24"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvColorDescription">
+
+        <com.eratart.baseui.view.other.ColorRadioButton
+            android:id="@+id/crb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:itemColor="@color/item_color_1"
+            app:itemSize="@dimen/selectable_color_size"
+            app:selected="false" />
+
+        <com.eratart.baseui.view.other.ColorRadioButton
+            android:id="@+id/crb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/mini_margin"
+            app:itemColor="@color/item_color_2"
+            app:itemSize="@dimen/selectable_color_size"
+            app:selected="false" />
+
+        <com.eratart.baseui.view.other.ColorRadioButton
+            android:id="@+id/crb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/mini_margin"
+            app:itemColor="@color/item_color_3"
+            app:itemSize="@dimen/selectable_color_size"
+            app:selected="false" />
+
+        <com.eratart.baseui.view.other.ColorRadioButton
+            android:id="@+id/crb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/mini_margin"
+            app:itemColor="@color/item_color_4"
+            app:itemSize="@dimen/selectable_color_size"
+            app:selected="false" />
+
+        <com.eratart.baseui.view.other.ColorRadioButton
+            android:id="@+id/crb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/mini_margin"
+            app:itemColor="@color/item_color_5"
+            app:itemSize="@dimen/selectable_color_size"
+            app:selected="false" />
+
+        <com.eratart.baseui.view.other.ColorRadioButton
+            android:id="@+id/crb6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/mini_margin"
+            app:itemColor="@color/item_color_6"
+            app:itemSize="@dimen/selectable_color_size"
+            app:selected="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llLine2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mini_margin"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/llLine1">
+
+        <com.eratart.baseui.view.other.ColorRadioButton
+            android:id="@+id/crb7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:itemColor="@color/item_color_7"
+            app:itemSize="@dimen/selectable_color_size"
+            app:selected="false" />
+
+        <com.eratart.baseui.view.other.ColorRadioButton
+            android:id="@+id/crb8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/mini_margin"
+            app:itemColor="@color/item_color_8"
+            app:itemSize="@dimen/selectable_color_size"
+            app:selected="false" />
+
+        <com.eratart.baseui.view.other.ColorRadioButton
+            android:id="@+id/crb9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/mini_margin"
+            app:itemColor="@color/item_color_9"
+            app:itemSize="@dimen/selectable_color_size"
+            app:selected="false" />
+
+        <com.eratart.baseui.view.other.ColorRadioButton
+            android:id="@+id/crb10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/mini_margin"
+            app:itemColor="@color/item_color_10"
+            app:itemSize="@dimen/selectable_color_size"
+            app:selected="false" />
+
+        <com.eratart.baseui.view.other.ColorRadioButton
+            android:id="@+id/crb11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/mini_margin"
+            app:itemColor="@color/item_color_11"
+            app:itemSize="@dimen/selectable_color_size"
+            app:selected="false" />
+
+        <com.eratart.baseui.view.other.ColorRadioButton
+            android:id="@+id/crb12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/mini_margin"
+            app:itemColor="@color/item_color_12"
+            app:itemSize="@dimen/selectable_color_size"
+            app:selected="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llLine3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mini_margin"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/llLine2">
+
+        <com.eratart.baseui.view.other.ColorRadioButton
+            android:id="@+id/crb13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:itemColor="@color/item_color_13"
+            app:itemSize="@dimen/selectable_color_size"
+            app:selected="false" />
+
+        <com.eratart.baseui.view.other.ColorRadioButton
+            android:id="@+id/crb14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/mini_margin"
+            app:itemColor="@color/item_color_14"
+            app:itemSize="@dimen/selectable_color_size"
+            app:selected="false" />
+    </LinearLayout>
+
+    <com.eratart.baseui.view.button.FilledButton
+        android:id="@+id/btnSelect"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginTop="@dimen/margin_24"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/llLine3"
+        app:text="@string/feature_color_picker_apply" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

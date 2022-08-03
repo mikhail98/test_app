@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_auth_failure">Ошибка авторизации</string>
+
+    <string name="feature_auth_policy"><![CDATA[Регистрируясь, вы принимаете условия <a href="https://www.eyezon.live/ru/politika-konfidencialnosti">политики конфиденциальности<a> и <a href="https://www.eyezon.live/ru/usloviya-ispolzovaniya">обработки данных<a>]]></string>
+    <string name="feature_auth_google">Continue with Google</string>
+    <string name="feature_auth_facebook">Continue with Facebook</string>
+    <string name="feature_auth_title">Всего один шаг до вашего онлайн гардероба</string>
+    <string name="feature_auth_description">Авторизуйтесь через любой из предложенных способов, чтобы продолжить</string>
+</resources>

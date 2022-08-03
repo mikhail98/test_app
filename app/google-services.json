@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "239484368384",
+    "project_id": "dropp-mvp",
+    "storage_bucket": "dropp-mvp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239484368384:android:2da7381f7e6c6da3e4cae5",
+        "android_client_info": {
+          "package_name": "com.eratart.dropp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239484368384-d98hukur8f9su2rvk28mcinsoui8na5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBodRrz5gP8Kz7e27aPuOM0htUunG6P6wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239484368384-d98hukur8f9su2rvk28mcinsoui8na5i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "239484368384-9vfktjflut8ift9i40todnmo8lb2f8de.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dropp.Dropp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239484368384:android:561b29b12d3db22fe4cae5",
+        "android_client_info": {
+          "package_name": "com.eratart.dropp.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239484368384-3dr9m125cqpsqai9gluc5e49ilthnppn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eratart.dropp.debug",
+            "certificate_hash": "623366452b752512e4612587830ae1fecde29695"
+          }
+        },
+        {
+          "client_id": "239484368384-c48e7ahhm9tvdd99118fh2h2u9pv7644.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eratart.dropp.debug",
+            "certificate_hash": "ef2f516ddc5c0fcdb973a36da237c77490b34a01"
+          }
+        },
+        {
+          "client_id": "239484368384-d98hukur8f9su2rvk28mcinsoui8na5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBodRrz5gP8Kz7e27aPuOM0htUunG6P6wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239484368384-d98hukur8f9su2rvk28mcinsoui8na5i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "239484368384-9vfktjflut8ift9i40todnmo8lb2f8de.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dropp.Dropp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

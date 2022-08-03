@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="failure_general">Something went wrong</string>
+    <string name="action_ok" translatable="false">OK</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="alert_warning">Warning</string>
+
+    <string name="slogan" translatable="false">–BECOME ICONIC–</string>
+
+    <string name="privacy_policy_link" translatable="false">https://google.com</string>
+</resources>

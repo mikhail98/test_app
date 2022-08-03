@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_auth_failure">Auth error</string>
+
+    <string name="feature_auth_policy"><![CDATA[By registration, you accept <a href="https://www.eyezon.live/ru/politika-konfidencialnosti">privacy policy<a> and <a href="https://www.eyezon.live/ru/usloviya-ispolzovaniya">terms of use<a>]]></string>
+    <string name="feature_auth_google">Continue with Google</string>
+    <string name="feature_auth_facebook">Continue with Facebook</string>
+    <string name="feature_auth_title">Just one step to yur online-wardrobe</string>
+    <string name="feature_auth_description">Use any service to authorize</string>
+</resources>

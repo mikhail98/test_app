@@ -1,0 +1,50 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+}
+
+apply from: "../dependencies.gradle"
+
+android {
+    compileSdkVersion sdk.compileSdkVersion
+    buildToolsVersion sdk.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion sdk.minSdkVersion
+    }
+
+    compileOptions {
+        sourceCompatibility sdk.javaVersion
+        targetCompatibility sdk.javaVersion
+    }
+
+    kotlinOptions {
+        jvmTarget = sdk.jvmTargetVersion
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation library.kotlinCore
+
+    implementation library.appCompat
+    implementation library.materialComponents
+
+    implementation library.koin
+    implementation library.viewModel
+    implementation library.coroutines
+
+    implementation library.bindingDelegate
+
+    implementation project(':base-ui')
+    implementation project(':core')
+    implementation project(':domain')
+    implementation project(':navigator-api')
+    implementation project(':tools')
+
+    implementation project(':subfeature-photo-dialog')
+}

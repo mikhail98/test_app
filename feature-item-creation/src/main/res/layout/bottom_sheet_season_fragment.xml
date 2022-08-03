@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_bottom_sheet">
+
+    <View
+        android:id="@+id/dragLine"
+        style="@style/DragLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvSeasonTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_24"
+        android:fontFamily="@font/manrope_bold"
+        android:gravity="center"
+        android:text="@string/feature_item_creation_season_title"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+        android:textColor="@color/eminem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dragLine" />
+
+    <com.eratart.baseui.view.button.ItemButton
+        android:id="@+id/ibSummer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/mini_margin"
+        android:layout_marginTop="@dimen/margin_24"
+        app:icon="@drawable/ic_summer"
+        app:layout_constraintEnd_toStartOf="@id/ibWinter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSeasonTitle"
+        app:text="@string/feature_item_creation_season_summer" />
+
+    <com.eratart.baseui.view.button.ItemButton
+        android:id="@+id/ibWinter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_24"
+        android:layout_marginEnd="@dimen/mini_margin"
+        app:icon="@drawable/ic_winter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ibSummer"
+        app:layout_constraintTop_toBottomOf="@id/tvSeasonTitle"
+        app:text="@string/feature_item_creation_season_winter" />
+
+    <com.eratart.baseui.view.button.ItemButton
+        android:id="@+id/ibDemieason"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/mini_margin"
+        android:layout_marginEnd="@dimen/mini_margin"
+        android:layout_marginBottom="@dimen/margin_24"
+        app:icon="@drawable/ic_demiseason"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ibWinter"
+        app:text="@string/feature_item_creation_season_demiseason" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
